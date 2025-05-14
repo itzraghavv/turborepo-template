@@ -2,6 +2,15 @@
 
 This Turborepo starter is maintained by the Turborepo core team.
 
+## To create a custom turborepo
+Create a GitHub repo with your desired structure (apps/http-server, apps/web, apps/ws-server, etc.), preconfigured with Turbo and any custom scripts/configs.
+```sh
+npx degit your-username/turbo-custom-template my-new-project
+cd my-new-project
+pnpm install  # or yarn / npm
+```
+
+
 ## Using this example
 
 Run the following command:
